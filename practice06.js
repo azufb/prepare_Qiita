@@ -28,9 +28,13 @@ function sample2(age) {
 let sampleResponse2 = sample2(5);
 let sampleResponse2_2 = sample2(25);
 let sampleResponse2_3 = sample2(16);
+let sampleResponse2_4 = sample2(Math.trunc(17.5));
+let sampleResponse2_5 = sample2(Math.floor(17.5));
 console.log(sampleResponse2);
 console.log(sampleResponse2_2);
 console.log(sampleResponse2_3);
+console.log(sampleResponse2_4);
+console.log(sampleResponse2_5);
 
 function sample3(itemObj) {
     // 引数に、オブジェクトを渡すパターン。
