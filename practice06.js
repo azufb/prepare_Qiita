@@ -17,7 +17,7 @@ console.log(sampleResponse1);
 function sample2(age) {
     if (age >= 18) {
         return `${age}歳は、18歳以上ですので、入場料は、1,500円です。`
-    }　else if (9 <= age && age <= 17) {
+    }　else if (9 <= age) {
         // 2つ以上の値の比較をして、その間の範囲を条件にする場合、&&で連結して表現する。
         return `${age}歳は、9歳以上17歳以下ですので、入場料は、1,000円です。`
     } else {
@@ -28,13 +28,11 @@ function sample2(age) {
 let sampleResponse2 = sample2(5);
 let sampleResponse2_2 = sample2(25);
 let sampleResponse2_3 = sample2(16);
-let sampleResponse2_4 = sample2(Math.trunc(17.5));
-let sampleResponse2_5 = sample2(Math.floor(17.5));
+let sampleResponse2_4 = sample2(17.5);
 console.log(sampleResponse2);
 console.log(sampleResponse2_2);
 console.log(sampleResponse2_3);
 console.log(sampleResponse2_4);
-console.log(sampleResponse2_5);
 
 function sample3(itemObj) {
     // 引数に、オブジェクトを渡すパターン。
