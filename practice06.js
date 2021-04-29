@@ -43,3 +43,16 @@ let aboutItem = {item: 'Mac Book Pro', price: '240,000'}
 let sampleResponse3 = sample3(aboutItem);
 // ユーザー定義関数sample3の引数には、オブジェクトであるaboutItemを渡している。
 console.log(sampleResponse3);
+
+function sample4(item1, item2, item3) {
+    return `${item1.item}は、${item1.price}円、${item2.item}は、${item2.price}円、${item3.item}は、${item3.price}円です。`
+}
+
+let items = [
+    {item: 'トマト', price: 98},
+    {item: 'キャベツ', price: 158},
+    {item: '大根', price: 190}
+]
+
+let sampleResponse4 = sample4(...items);
+console.log(sampleResponse4);
