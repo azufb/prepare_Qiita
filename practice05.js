@@ -30,24 +30,24 @@ console.log(Number.isInteger(7));
 console.log(Number.isInteger('なな'));
 
 // Math.abs(n) nの絶対値を返す
-console.log(Math.abs(-77.5));
+console.log(Math.abs(-77.5)); // 77.5
 
 // Math.trunc(n) nの整数部分を返す
-console.log(Math.trunc(77.5));
+console.log(Math.trunc(77.5)); // 77
 
 // Math.floor(n) n以下の最大の整数を返す 小数点以下を除いたもの
-console.log(Math.floor(77.8));
+console.log(Math.floor(77.8)); // 77
 
 // Math.ceil(n) n以上の最小の整数を返す
-console.log(Math.ceil(77.8));
-console.log(Math.ceil(77.4));
+console.log(Math.ceil(77.8)); // 78
+console.log(Math.ceil(77.4)); // 78
 
 // Math.round(n) nを四捨五入した整数を返す はみ出た小数点以下を丸める感覚
 console.log(Math.round(77.8)); // 78
 console.log(Math.round(77.4)); // 77
 
 // Math.max(n1, n2, n3,....,n4) 引数に渡された値の中で最大の値
-console.log(Math.max(2, 5, 1, 9, 33, 99, 0, 100, 77, 7));
+console.log(Math.max(2, 5, 1, 9, 33, 99, 0, 100, 77, 7)); // 100
 
 // Math.max(n1, n2, n3,....,n4) 引数に渡された値の中で最小の値
-console.log(Math.min(2, 5, 1, 9, 33, 99, 0, 100, 77, 7));
+console.log(Math.min(2, 5, 1, 9, 33, 99, 0, 100, 77, 7)); // 0
