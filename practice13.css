@@ -1,0 +1,9 @@
+.textBox {
+  background-color: #ccc;
+  width: 200px;
+  height: 200px;
+}
+
+.content {
+  white-space: pre-line;
+}
