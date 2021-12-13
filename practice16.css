@@ -1,0 +1,18 @@
+.selectBoxArea {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.selectBoxArea select {
+  order: 1;
+}
+
+.selectBoxArea label {
+  order: 0;
+}
+
+.selectBoxArea select:disabled + label {
+  color: rgb(170, 170, 170);
+}
